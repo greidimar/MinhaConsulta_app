@@ -7,7 +7,6 @@ import ConsultationsListScreen from '../screens/ConsultationsListScreen';
 import ScheduleConsultationScreen from '../screens/ScheduleConsultationScreen';
 import ConfirmAppointmentScreen from '../screens/ConfirmAppointmentScreen';
 
-// Definindo o RootStackParamList com todas as telas do projeto
 export type RootStackParamList = {
   Welcome: undefined;
   Login: undefined;
@@ -25,32 +24,32 @@ const AppNavigator = () => {
       <Stack.Screen 
         name="Welcome" 
         component={WelcomeScreen} 
-        options={{ title: 'Tela Inicial' }} // Título personalizável
+        options={{ title: 'Tela Inicial' }} 
       />
       <Stack.Screen 
         name="Login" 
         component={LoginScreen} 
-        options={{ title: 'Acesse sua conta aqui!' }} // Título personalizável
+        options={{ title: 'Acesse sua conta' }} 
       />
       <Stack.Screen 
         name="SignUp" 
         component={SignUpScreen} 
-        options={{ title: 'Cadastrar' }} // Título personalizável
+        options={{ title: 'Cadastrar' }} 
       />
       <Stack.Screen 
         name="ConsultationsList" 
         component={ConsultationsListScreen} 
-        options={{ title: 'Consultas Agendadas' }} // Título personalizável
+        options={{ title: 'Consultas Agendadas' }} 
       />
       <Stack.Screen 
         name="ScheduleConsultation" 
         component={ScheduleConsultationScreen} 
-        options={{ title: 'Agendar Consulta' }} // Título personalizável
+        options={{ title: 'Agendar Consulta' }} 
       />
       <Stack.Screen 
         name="ConfirmAppointment" 
         component={ConfirmAppointmentScreen} 
-        options={{ title: 'Confirmação de Agendamento' }} // Título personalizável
+        options={{ title: 'Confirmação de Agendamento' }} 
       />
     </Stack.Navigator>
   );
