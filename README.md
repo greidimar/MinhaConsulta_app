@@ -57,6 +57,3 @@ Se você encontrar algum problema ou tiver sugestões, por favor abra uma <a hre
 
 <div align="center"> <em>Este projeto está em desenvolvimento. Novas funcionalidades e melhorias estão sendo implementadas continuamente.</em> </div>
 html
-<!-- Este é o conteúdo HTML que você pode usar diretamente no README.md -->
-<!-- Basta copiar e colar no seu arquivo README.md no GitHub -->
-O código HTML acima está formatado para ser usado diretamente no arquivo README.md do GitHub. O GitHub suporta HTML limitado em arquivos Markdown, então as tags mais complexas foram substituídas por equivalente em Markdown onde necessário, mantendo uma aparência profissional e organizada.
